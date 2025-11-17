@@ -1,7 +1,7 @@
 name: Relase
 on: [push]
 jobs:
-  lint:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: GH Release
